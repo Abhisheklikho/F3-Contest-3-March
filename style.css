@@ -1,0 +1,48 @@
+button{
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 60%;
+}
+#map{
+    height: 60vh;
+    width: 70vw;
+    position: relative;
+    left: 25%;
+    margin-top: 40px;
+}
+.groupBtn{
+    position: relative;
+    display: flex;
+    left: 50%;
+    gap: 2vw;
+    margin-top: 50px;
+    
+}
+.btn0{
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(61, 56, 56, 0.2), 0 6px 20px 0 rgba(60, 54, 54, 0.19);
+}
+.btn0:hover{
+    background-color: blueviolet;
+    color:1px solid white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border: rgb(240, 0, 0);
+      width: 320px;
+      height: 70px;
+
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
